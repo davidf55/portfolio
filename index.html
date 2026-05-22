@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>David Farid — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+<body id="home">
+
+  <!-- Navbar -->
+  <nav class="custom-navbar">
+    <div class="nav-container">
+      <div class="brand">David F.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hi">Hi!</span>
+        <span class="name">I'm <span id="typed-name">David Farid</span></span>
+      </h1>
+      <p class="hero-sub">Full-Stack Developer & Cybersecurity Analyst</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="assets/docs/David_Farid_Cybersecurity_v3.pdf" target="_blank">Download CV</a>
+        <a class="btn outline" href="#portfolio">View Projects</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/david-farid-noshy" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:davidfarid38@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:01223069795" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container reveal">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="assets/imgs/profile.png" alt="David Farid" class="profile-photo">
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Computer Science student at AASTMT (2023–2027), specializing in both Full-Stack Web Development
+            and Cybersecurity. I build scalable, secure web applications using .NET Core and Python Flask,
+            while also performing penetration testing and vulnerability assessments.
+          </p>
+          <p>
+            Currently a third-year student with hands-on experience in enterprise-grade .NET solutions,
+            Linux administration, network security, and ethical hacking — bridging the gap between
+            development and security.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Egypt</span>
+            <span class="tag">3rd Year CS</span>
+            <span class="tag">AASTMT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section bg-soft">
+    <div class="container reveal">
+      <h2 class="center">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-percent="85">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h4>.NET & Web Backend</h4>
+          <p class="muted">.NET Core Web API • ASP.NET Core MVC • Python Flask • REST APIs</p>
+          <div class="circle-wrap">
+            <svg viewBox="0 0 100 100" class="circle-svg">
+              <circle class="bg" cx="50" cy="50" r="40"></circle>
+              <circle class="progress" cx="50" cy="50" r="40" stroke-linecap="round"></circle>
+            </svg>
+            <div class="circle-number">0%</div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-percent="80">
+          <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+          <h4>Cybersecurity</h4>
+          <p class="muted">Penetration Testing • Vulnerability Assessment • Digital Forensics • Ethical Hacking</p>
+          <div class="circle-wrap">
+            <svg viewBox="0 0 100 100" class="circle-svg">
+              <circle class="bg" cx="50" cy="50" r="40"></circle>
+              <circle class="progress" cx="50" cy="50" r="40" stroke-linecap="round"></circle>
+            </svg>
+            <div class="circle-number">0%</div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-percent="78">
+          <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+          <h4>Networking</h4>
+          <p class="muted">TCP/IP • Routing & Switching • Network Virtualization • Infrastructure Deployment</p>
+          <div class="circle-wrap">
+            <svg viewBox="0 0 100 100" class="circle-svg">
+              <circle class="bg" cx="50" cy="50" r="40"></circle>
+              <circle class="progress" cx="50" cy="50" r="40" stroke-linecap="round"></circle>
+            </svg>
+            <div class="circle-number">0%</div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-percent="82">
+          <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+          <h4>Languages & Systems</h4>
+          <p class="muted">C# • Python • Java • C++ • JavaScript • Linux (Red Hat)</p>
+          <div class="circle-wrap">
+            <svg viewBox="0 0 100 100" class="circle-svg">
+              <circle class="bg" cx="50" cy="50" r="40"></circle>
+              <circle class="progress" cx="50" cy="50" r="40" stroke-linecap="round"></circle>
+            </svg>
+            <div class="circle-number">0%</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Projects -->
+  <section id="portfolio" class="section">
+    <div class="container reveal">
+      <h2 class="center">Projects</h2>
+      <div class="portfolio-grid">
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb project-thumb thumb-1">
+            <i class="fas fa-futbol"></i>
+          </div>
+          <div class="portfolio-info">
+            <h3>Sports Club Management System</h3>
+            <p>Full-stack web application for sports club operations, scheduling, and client onboarding. Delivered on time within client budget.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">ASP.NET Core</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Responsive UI</span>
+            </div>
+            <div class="portfolio-buttons">
+              <span class="btn btn-live">Live Project</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb project-thumb thumb-2">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="portfolio-info">
+            <h3>Professional Frontend Portfolio</h3>
+            <p>Interactive digital portfolio showcasing production-ready interfaces, custom widgets, and modern responsive designs.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="portfolio-buttons">
+              <span class="btn btn-live">Live Portfolio</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="portfolio-thumb project-thumb thumb-3">
+            <i class="fas fa-bug"></i>
+          </div>
+          <div class="portfolio-info">
+            <h3>Security & Penetration Testing</h3>
+            <p>Practical vulnerability assessments and penetration testing on infrastructure environments using CEH methodologies.</p>
+            <div class="tech-tags">
+              <span class="tech-tag">CEH</span>
+              <span class="tech-tag">Kali Linux</span>
+              <span class="tech-tag">Network Security</span>
+            </div>
+            <div class="portfolio-buttons">
+              <span class="btn btn-live">Security Work</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certs" class="section bg-soft">
+    <div class="container reveal">
+      <h2 class="center">Certifications & Training</h2>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-shield-virus"></i></div>
+          <h4>Ethical Hacking (CEH)</h4>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-redhat"></i></div>
+          <h4>Red Hat System Administration I</h4>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-globe"></i></div>
+          <h4>Full-Stack .NET Web Developer</h4>
+          <span class="cert-year">2024–2025</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+          <h4>Network Infrastructure & Security</h4>
+          <span class="cert-year">ITIDA · 2024</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-cisco"></i></div>
+          <h4>Cisco Cybersecurity & Networking</h4>
+          <span class="cert-year">Cisco Academy</span>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-brain"></i></div>
+          <h4>Deep Learning — NVIDIA</h4>
+          <span class="cert-year">August 2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container reveal">
+      <h2 class="center">Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="assets/imgs/responsive.svg" alt="" class="icon">
+          <h4>Full-Stack Web Development</h4>
+          <p>End-to-end web applications using .NET Core, ASP.NET MVC, and Python Flask.</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/imgs/toolbox.svg" alt="" class="icon">
+          <h4>API Development</h4>
+          <p>Secure, scalable REST APIs with asynchronous processing and advanced data integrations.</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/imgs/shield.svg" alt="" class="icon">
+          <h4>Penetration Testing</h4>
+          <p>Infrastructure vulnerability assessments and ethical hacking using CEH methodologies.</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/imgs/analytics.svg" alt="" class="icon">
+          <h4>Secure Code Review</h4>
+          <p>OWASP Top 10 security audits, injection prevention, and defensive coding practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section bg-soft">
+    <div class="container reveal">
+      <h2 class="center">Contact Me</h2>
+      <p class="center muted">Reach out for projects, collaboration, or opportunities</p>
+      <div class="contact-info">
+        <a href="mailto:davidfarid38@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>davidfarid38@gmail.com</span>
+        </a>
+        <a href="tel:01223069795" class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>01223069795</span>
+        </a>
+        <a href="https://www.linkedin.com/in/david-farid-noshy" target="_blank" class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/david-farid-noshy</span>
+        </a>
+      </div>
+      <form class="contact-form" action="mailto:davidfarid38@gmail.com" method="get">
+        <div class="form-grid">
+          <input name="subject" type="text" placeholder="Your Name" required>
+          <input name="email" type="email" placeholder="Your Email" required>
+          <textarea name="body" rows="6" placeholder="Message"></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> David Farid Noshy — All rights reserved.</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/david-farid-noshy" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:davidfarid38@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/meyawo.js"></script>
+</body>
+</html>
